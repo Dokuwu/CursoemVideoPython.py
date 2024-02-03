@@ -27,6 +27,19 @@ O :< vai centralizar a esquerda e o :> à direita
 end='' NO FINAL NAO VAI QUEBRAR A LINHA
 \n :quebra de linha
 
+' SWITCH EM PYTHON'
+match variable:
+    case pattern1:
+        # Put Code for This Case
+        pass
+    case pattern2:
+        # Put Code for This Case
+        pass
+    # Define more cases here
+    case _:
+        # handle invalid case here
+        pass
+
 import serve para importar bibliotecas ou modulos
 (import math) IMPORTA TUDO para so escolher 1 modulo faz (from math import 'nome')
 para usar o modulo coloca math.nomedomodulo por exemplo

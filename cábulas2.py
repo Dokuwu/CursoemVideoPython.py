@@ -13,6 +13,9 @@ EXISTE UMA BIBLIOTECA CHAMADA COLORIZE QUE TEM MAIS OPÇOES
 
 background temos 40 a 47 (40 branco)(.1 vermelho)(.2 verde)(.3 amarelo)(.4 azul)(.5 roxo)(.6 ciano)(.7 cinzento)
 
+ex: "\033[0;37;40mO que deseja fazer:\n1- Adicionar saldo\n2- Remover saldo\033[0;37;40m"
+
+
 if       else
 true     false
 if       elif     else

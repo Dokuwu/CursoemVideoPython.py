@@ -121,3 +121,25 @@ r2 = somar(2,2)
 r3 = somar(4)
 
 o return s vai returnar o s para o que vier antes como uma variavel ou até um print
+
+'   MODULOS     '
+
+Cria um ficheiro py separado com as funções que quer usar por exemplo uteis.py
+
+No outro ficheiro é so fazer import uteis e usar depois ex: uteis.factorial()
+
+' JUNÇAO DE MODULOS (PACOTES)'
+
+quando um modulo fica muito grande, antigamente separavasse em mais modulos
+mas o python permite criar pacote, junção de modulos num so ficheiro
+por exemplo um pacote util, pode ter os modulos numeros,strings,datas
+depois é o mesmo import util, ou se quiser algo mais especifico, from util import numeros
+
+a criação é feita por pastas
+cria a pasta util, e dentro dessa pasta tem mais pastas,cada uma com o nome dos modulos
+cada pasta modulo deve ter o ficheiro __init__.py mas ele ja cria por si só
+
+como fazer : botao direito e em new tem como selecionar python package, e entao só fazer o mesmo, dentro do outro package
+para criar ainda mais packages ou modulos
+
+para adicionar funções, coloca dentro do ficheiro __init__.py
