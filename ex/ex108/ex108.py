@@ -3,6 +3,8 @@ import moeda
 boolian = True
 while boolian:
     saldo = float(input("Digite seu saldo: R$"))
+    #na resolução do exercicio as funções tem como parametro pre definido preço = 0, que nesta situação
+    #está resolvido neste loop
     if saldo >= 0:
         boolian = False
 escolha = int(input("O que deseja fazer:\n1- Adicionar saldo %\n2- Remover saldo %\n"
